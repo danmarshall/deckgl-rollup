@@ -1,0 +1,30 @@
+{
+  "name": "deckgl-rollup",
+  "version": "1.0.0",
+  "description": "bundle deck.gl with rollup",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "rollup -c",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danmarshall/deckgl-rollup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danmarshall/deckgl-rollup/issues"
+  },
+  "homepage": "https://github.com/danmarshall/deckgl-rollup#readme",
+  "dependencies": {
+    "deck.gl": "^6.3.3"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "rollup": "^1.1.0",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0"
+  }
+}
